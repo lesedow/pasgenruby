@@ -5,14 +5,21 @@ A secure password generator made in ruby
 
 `git clone https://www.github.com/lesedow/pasgenruby`
 
-2. After that you have to change your current directory into the folder
-`cd pasgenruby/`
+2. After that you have to change your current directory into the folder:
+```
+cd pasgenruby/
+```
+3. Then you can run the code using this command (Make sure you have ruby installed!):
+```
+ruby password_generator.rb
+```
 
-3. Then you can run the code using this command (Make sure you have ruby installed!)
-`ruby password_generator.rb`
+- Optionally, you can specify the size of your password:
+```
+ruby password_generator.rb size 10
+```
 
-Optionally, you can specify the size of your password
-`ruby password_generator.rb size 10`
-
-Or you can exclude special characters (example: []{}?-*#)
-`ruby password_generator.rb size 10 --no-special-chars`
+- Or you can exclude special characters (example: []{}?-*#):
+```
+ruby password_generator.rb size 10 --no-special-chars
+```
