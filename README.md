@@ -3,7 +3,9 @@ A secure password generator made in ruby
 ## How to generate a password?
 1. Firstly, you have to clone this repository using this command in your terminal / powershell / command-prompt
 
-`git clone https://www.github.com/lesedow/pasgenruby`
+```
+git clone https://www.github.com/lesedow/pasgenruby
+```
 
 2. After that you have to change your current directory into the folder:
 ```
