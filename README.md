@@ -11,7 +11,7 @@ git clone https://www.github.com/lesedow/pasgenruby
 ```
 cd pasgenruby/
 ```
-3. Then you can run the code using this command (Make sure you have ruby installed!):
+3. Then you can run the code using this command:
 ```
 ruby password_generator.rb
 ```
